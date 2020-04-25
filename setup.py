@@ -78,6 +78,7 @@ setup(
     ],
     url="https://stackstorm.github.io/PySwitchLib/",
     include_package_data=True,
+    python_requires='>=2.7,<3.0',
     install_requires=reqs,
     cmdclass={
         'install': PostInstallCommand,
